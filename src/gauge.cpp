@@ -154,7 +154,7 @@ void printtext(String line1, String line2, String line3, String line4) {
 
 void Gauge::updateScreen(OutputValue* input_ptr) {
   if ((*input_ptr).modeValue == true){
-    sprintf((*out1_ptr).modeText, "auto");
+    sprintf((*out1_ptr).modeText, "ECU");
   }
   else {
     sprintf((*out1_ptr).modeText, "manual");
